@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" >
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1"
+    android:weightSum="1.0">
+    
+    <TableRow>
+    <TextView
+        android:id="@+id/map0"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/map" 
+        android:textSize="25dp"
+    	android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"/>
+    </TableRow>
+    
+    <TableRow>
+    <TextView
+        android:id="@+id/mapIntro0"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/map_intro" 
+        android:textSize="15dp"
+    	android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"/>
+    </TableRow>
+    
+    <TableRow>
+    <TextView
+        android:id="@+id/mapText0"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/map_code" 
+        android:textSize="15dp"
+    	android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"/>
+    </TableRow>
+    
+    <TableRow>
+    <TextView
+        android:id="@+id/mapText1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="16dp"
+        android:text="@string/map1" 
+        android:layout_weight="1"
+        android:gravity="center_vertical"/>
+    <Spinner
+        android:id="@+id/mapSpin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="16dp"/>
+    </TableRow>
+
+    <TableRow>
+    <TextView
+        android:id="@+id/mapText2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="16dp"
+        android:text="@string/map2" 
+        android:layout_weight="1"
+        android:gravity="center_vertical"/>
+    <Spinner
+        android:id="@+id/mapSpin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="16dp" />
+    </TableRow>
+
+        
+    <TableRow>
+    <TextView
+        android:id="@+id/mapText3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="16dp"
+        android:text="@string/map3"
+        android:layout_weight="1"
+        android:gravity="center_vertical"/>
+
+    <Spinner
+        android:id="@+id/mapSpin3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="16dp" />
+    </TableRow>
+        
+    <TableRow>
+    <TextView
+        android:id="@+id/mapText4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="16dp"
+        android:text="@string/map4"
+        android:layout_weight="1"
+        android:gravity="center_vertical"/>
+
+    <Spinner
+        android:id="@+id/mapSpin4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="16dp" />
+    </TableRow>
+        
+    <TableRow>
+    <TextView
+        android:id="@+id/mapText5"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="16dp"
+        android:text="@string/map5"
+        android:layout_weight="1"
+        android:gravity="center_vertical"/>
+
+    <Spinner
+        android:id="@+id/mapSpin5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="16dp" />
+    </TableRow>
+        
+    <TableRow>
+    <TextView
+        android:id="@+id/mapText6"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="16dp"
+        android:text="@string/map6"
+        android:layout_weight="1"
+        android:gravity="center_vertical"/>
+
+    <Spinner
+        android:id="@+id/mapSpin6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="16dp" />
+    </TableRow>
+        
+    <TableRow>
+    <TextView
+        android:id="@+id/mapText7"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="16dp"
+        android:text="@string/map7"
+        android:layout_weight="1"
+        android:gravity="center_vertical"/>
+
+    <Spinner
+        android:id="@+id/mapSpin7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="16dp" />
+    </TableRow>
+        
+    <TableRow>
+    <TextView
+        android:id="@+id/mapText8"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="16dp"
+        android:text="@string/map8"
+        android:layout_weight="1"
+        android:gravity="center_vertical"/>
+
+    <Spinner
+        android:id="@+id/mapSpin8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="16dp" />
+    </TableRow>
+        
+    <TableRow>
+    <TextView
+        android:id="@+id/mapText9"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="16dp"
+        android:text="@string/map9"
+        android:layout_weight="1"
+        android:gravity="center_vertical"/>
+
+    <Spinner
+        android:id="@+id/mapSpin9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="16dp" />
+    </TableRow>
+        
+    <TableRow>
+    <TextView
+        android:id="@+id/mapText10"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="16dp"
+        android:text="@string/map10"
+        android:layout_weight="1"
+        android:gravity="center_vertical"/>
+
+    <Spinner
+        android:id="@+id/mapSpin10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="16dp" />
+    </TableRow>
+        
+    <TableRow>
+    <TextView
+        android:id="@+id/mapText11"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="16dp"
+        android:text="@string/map11"
+        android:layout_weight="1"
+        android:gravity="center_vertical"/>
+
+    <Spinner
+        android:id="@+id/mapSpin11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="16dp" />
+    </TableRow>
+        
+    <TableRow>
+    <TextView
+        android:id="@+id/mapText12"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/map12"
+        android:layout_weight="1"
+        android:gravity="center_vertical"/>
+
+    <Spinner
+        android:id="@+id/mapSpin12"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="16dp" />
+    </TableRow>
+        
+    <TableRow>
+    <TextView
+        android:id="@+id/mapText13"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/map13"
+        android:layout_weight="1"
+        android:gravity="center_vertical"/>
+
+    <Spinner
+        android:id="@+id/mapSpin13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="16dp" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/endMap"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="evalMap"
+        android:text="@string/submit" />
+    
+</TableLayout>
+</ScrollView>

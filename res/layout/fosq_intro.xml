@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/fosq"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fosq"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" 
+        android:textSize="25dp"
+        android:gravity="center_vertical|center_horizontal"/>
+
+    <TextView
+        android:id="@+id/fosq_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fosq_desc"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+		android:gravity="center"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/fosq_note"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fosq_note"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+		android:gravity="center"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/fosq_instr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fosq_instr"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+		android:gravity="center"
+        android:textSize="15dp"/>
+
+    <Button
+        android:id="@+id/begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="beginFOSQ"
+        android:text="@string/begin" />
+</LinearLayout>
+</ScrollView>

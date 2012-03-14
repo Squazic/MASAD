@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MASAD</string>
+    <string name="app_longname">MASAD: Mobile Application for Sleep Apnea Diagnosis</string>
+    
+    <string name="intro">Welcome to Mobile Application for Sleep Apnea Diagnosis (MASAD)!</string>
+    <string name="intro2">You\'re here because you want to know your chances of having sleep apnea and we\'re here to help!
+        To do this, you\'ll undergo a series of three tests.
+        The first is a series of questionnaires designed to gauge how well you\'re sleeping.
+        Then, you\'ll take a couple of pictures of yourself.
+        Finally, you\'ll record yourself while sleeping.
+        Sound simple enough?
+        Let\'s get started!</string>
+    
+    <string name="ess">Epworth Sleepiness Scale</string>
+    <string name="epworth_intro">How likely are you to doze off 
+        or fall asleep in the following situations, 
+        in contrast to feeling just tired? 
+        This refers to your usual way of life in recent times. 
+        Even if you have not done some of these things recently 
+        try to work out how they would have affected you. 
+        It is important that you answer each question as best you can</string>
+    <string name="begin">Begin!</string>
+    <string name="chance_dozing">Indicate your chance of dozing below:</string>
+    
+    <string name="epworth1">Sitting and Reading</string>
+    <string name="epworth2">Watching TV</string>
+    <string name="epworth3">Sitting inactive in a public place (e.g a theater or a meeting)</string>
+    <string name="epworth4">As a passenger in a car for an hour without a break</string>
+    <string name="epworth5">Lying down to rest in the afternoon when circumstances permit</string>
+    <string name="epworth6">Sitting and talking to someone</string>
+    <string name="epworth7">Sitting quietly after a lunch without alcohol</string>
+    <string name="epworth8">In a car, while stopped for a few minutes in traffic</string>
+    <string-array name="epworth_array">
+        <item>None</item>
+        <item>Slight</item>
+        <item>Moderate</item>
+        <item>High</item>
+    </string-array>
+    <string name="healthy">Congratulations! You are getting enough sleep.</string>
+    <string name="risk">Your result is above normal and indicates excessive diurnal sleepiness,
+        one of the symptoms of sleep apnea and other sleep disorders.
+        It is recommended that you seek medical advice.</string>
+        
+    <string name="map">Multivariable Apnea Prediction (MAP)</string>
+    <string name="map_intro">During the last month, on how many nights or days
+        per week have you had or been told you had the following:</string>
+    <string name="map_code"> Rarely: less than once a week \n
+        	Sometimes: 1-2 times per week \n Frequently: 3-4 times per week \n
+        	Always: 5-7 times per week</string>
+    <string name="map_indicate">Indicate the frequency below:</string>
+    <string name="map1">Loud snoring</string>
+    <string name="map2">Your legs feel jumpy or jerk</string>
+    <string name="map3">Difficulty falling asleep</string>
+    <string name="map4">Frequent wakenings</string>
+    <string name="map5">Snorting or gasping</string>
+    <string name="map6">Falling asleep when at work</string>
+    <string name="map7">Frequent tossing, turning, or thrashing</string>
+    <string name="map8">Your breathing stops or you choke or struggle for breath</string>
+    <string name="map9">Excessive sleepiness</string>
+    <string name="map10">Morning headaches</string>
+    <string name="map11">Falling asleep while driving</string>
+    <string name="map12">Feeling paralyzed, unable to move for short periods
+        when falling asleep or awakening</string>
+    <string name="map13">Find yourself in a vivid dreamlike state when falling asleep
+         or awakening even though you know you are awake</string>
+    <string-array name="map_array">
+        <item>Never</item>
+        <item>Rarely</item>
+        <item>Sometimes</item>
+        <item>Frequently</item>
+        <item>Always</item>
+        <item>Don\'t Know</item>
+    </string-array>
+    <string name="submit">Submit</string>
+    
+    <string name="fosq">FOSQ</string>
+    <string name="fosq_desc">This "Functional Outcomes of Sleep" test
+        helps determine how sleepiness effects the quality of your life.</string>
+    <string name="fosq_note">Note: In this questionnaire, when the words "sleep" or
+        "tired" are used, it describes the feeling that you can’t keep your eyes open,
+        your head is droopy, that you want to nod off or that you feel the urge to nap.
+        These words do not refer to the tired or fatigued feeling you may have after you exercised. </string>
+    <string name="fosq_instr">There are 30 questions. Please fill out this form completely and 
+        select one answer for each question.</string>
+        
+    <string name="fosqBut0">I don\'t do this activity for other reasons</string>
+    <string name="fosqBut1">Yes, extreme</string>
+    <string name="fosqBut2">Yes, moderate</string>
+    <string name="fosqBut3">Yes, a little</string>
+    <string name="fosqBut4">No</string>
+        
+    <string name="fosqBut0Alt">N/A</string>
+    <string name="fosqBut1Alt">Very Low</string>
+    <string name="fosqBut2Alt">Low</string>
+    <string name="fosqBut3Alt">Medium</string>
+    <string name="fosqBut4Alt">High</string>
+    
+    <string name="fosq_q1">Do you generally have difficulty concentrating on things you do
+        because you are sleepy or tired?</string>
+    <string name="fosq_q2">Do you generally have difficulty remembering things
+        because you are sleepy or tired?</string>
+    <string name="fosq_q3">Do you have difficulty finishing a meal
+        because you become sleepy or tired?</string>
+    <string name="fosq_q4">Do you have difficulty working on a hobby (for example: sewing, collecting, gardening)
+        because you are sleepy or tired?</string>
+    <string name="fosq_q5">Do you have difficulty doing work around the house
+        (for example: cleaning house, doing laundry, taking out the trash, repair work)
+        because you are sleepy or tired?</string>
+    <string name="fosq_q6">Do you have difficulty operating a motor vehicle for short distances (less than 100 miles)
+        because you become sleepy or tired?</string>
+    <string name="fosq_q7">Do you have difficulty operating a motor vehicle for long distances (greater than 100 miles)
+        because you become sleepy or tired?</string>
+    <string name="fosq_q8">Do you have difficulty getting things done
+        because you are too sleepy or tired to drive or take public transportation?</string>
+    <string name="fosq_q9">Do you have difficulty take care of financial affairs and doing paperwork (for example:
+        writing checks, paying bills, keeping financial records, filling out tax forms, etc.)
+        because you are sleepy or tired?</string>
+    <string name="fosq_q10">Do you have difficulty performing employed or volunteer work
+        because you are sleepy or tired?</string>
+    <string name="fosq_q11">Do you have difficulty maintaining a telephone conversation
+        because you become sleepy or tired?</string>
+    <string name="fosq_q12">Do you have difficulty visiting with you family or friends in your home
+        because you become sleepy or tired?</string>
+    <string name="fosq_q13">Do you have difficulty visiting with your family or friends in their homes
+        because you become sleepy or tired?</string>
+    <string name="fosq_q14">Do you have difficulty doing things for your family or friends
+        because you become sleepy or tired?</string>
+    <string name="fosq_q15">Has your relationship with family, friends or work colleagues been affected
+        because you are sleepy or tired?</string>
+    <string name="fosq_q16">Do you have difficulty exercising or participating in a sporting activity
+        because you are too sleepy or tired?</string>
+    <string name="fosq_q17">Do you have difficulty watching a movie or videotape
+        because you become sleepy or tired?</string>
+    <string name="fosq_q18">Do you have difficulty enjoying the theater or a lecture
+        because you become sleepy or tired?</string>
+    <string name="fosq_q19"> Do you have difficulty enjoying a concert
+        because you become sleepy or tired?</string>
+    <string name="fosq_q20">Do you have difficulty watching television
+        because you are sleepy or tired?</string>
+    <string name="fosq_q21">Do you have difficulty participating in religious services, meeting or a group club
+        because you are sleepy or tired?</string>
+    <string name="fosq_q22">Do you have difficulty being as active as you want to be in the evening
+        because you are sleepy or tired?</string>
+    <string name="fosq_q23">Do you have difficulty being as active as you want to be in the morning
+        because you are sleepy or tired?</string>
+    <string name="fosq_q24"> Do you have difficulty being as active as you want to be in the afternoon
+        because you are sleepy or tired?</string>
+    <string name="fosq_q25">Do you have difficulty keeping a pace with others your own age
+        because you are sleepy or tired?</string>
+    <string name="fosq_q26"> How would you rate yourself in your general level of activity?</string>
+    <string name="fosq_q27">Has your intimate or sexual relationship been affected
+        because you are sleepy or tired?</string>
+    <string name="fosq_q28">Has your desire for intimacy or sex been affected
+        because you are sleepy or tired?</string>
+    <string name="fosq_q29">Has your ability to become sexually aroused been affected
+        because you are sleepy or tired?</string>
+    <string name="fosq_q30">Has your ability to have an orgasm been affected
+        because you are sleep or tired?</string>
+        
+    <string name="camera_intro">Congratulations!\nYou have finished the questionnaires.</string>
+    <string name="camera_intro2">Now, it is time to take pictures of the front and side of your mouth.
+        See the example images below.</string>
+    <string name="front_ex">Example image of front view</string>
+    <string name="profile_ex">Example image of profile view</string>
+    
+    
+    <string name="audio_intro">Congratulations! You only have one more step to go!
+        Now all you need to do is record yourself while sleeping.</string>
+    <string name="audio_intro2">Hit the \&quot;Record\&quot; below right before you head to bed and
+        hit the \&quot;Stop\&quot; button when you wake up.</string>
+	<string name="choose_format_title">Choose Audio Format</string>
+	<string name="start_recording">Record</string>
+	<string name="stop_recording">Stop</string>
+	<string name="audio_format">Format</string>
+    
+    <string name="last">Thank you for your participation!</string>
+    <string name="last2">
+        Your results will be stored without any personally identifiable information
+        and used to formulate an algorithm to find the best measure for identifying sleep apnea.</string>
+    
+</resources>

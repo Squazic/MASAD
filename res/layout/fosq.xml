@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/fosqQ"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fosq_q1"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" 
+        android:textSize="20dp"
+        android:gravity="center_vertical|center_horizontal"/>
+
+    <Button
+        android:id="@+id/fosq0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="selectFosq0"
+        android:text="@string/fosqBut0" />
+
+    <Button
+        android:id="@+id/fosq1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="selectFosq1"
+        android:text="@string/fosqBut1" />
+
+    <Button
+        android:id="@+id/fosq2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="selectFosq2"
+        android:text="@string/fosqBut2" />
+
+    <Button
+        android:id="@+id/fosq3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="selectFosq3"
+        android:text="@string/fosqBut3" />
+
+    <Button
+        android:id="@+id/fosq4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="selectFosq4"
+        android:text="@string/fosqBut4" />
+
+</LinearLayout>
+</ScrollView>
