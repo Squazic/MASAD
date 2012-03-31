@@ -30,7 +30,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:text="@string/map_intro" 
-        android:textSize="15dp"
+        android:textSize="18dp"
     	android:gravity="center_horizontal"
         android:layout_marginBottom="20dp"
         android:layout_marginLeft="20dp"
@@ -44,7 +44,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:text="@string/map_code" 
-        android:textSize="15dp"
+        android:textSize="18dp"
     	android:gravity="center_horizontal"
         android:layout_marginBottom="20dp"
         android:layout_marginLeft="20dp"
@@ -59,6 +59,7 @@
         android:layout_height="fill_parent"
         android:layout_marginLeft="16dp"
         android:text="@string/map1" 
+        android:textSize="18dp"
         android:layout_weight="1"
         android:gravity="center_vertical"/>
     <Spinner
@@ -76,6 +77,7 @@
         android:layout_height="fill_parent"
         android:layout_marginLeft="16dp"
         android:text="@string/map2" 
+        android:textSize="18dp"
         android:layout_weight="1"
         android:gravity="center_vertical"/>
     <Spinner
@@ -94,6 +96,7 @@
         android:layout_height="fill_parent"
         android:layout_marginLeft="16dp"
         android:text="@string/map3"
+        android:textSize="18dp"
         android:layout_weight="1"
         android:gravity="center_vertical"/>
 
@@ -112,6 +115,7 @@
         android:layout_height="fill_parent"
         android:layout_marginLeft="16dp"
         android:text="@string/map4"
+        android:textSize="18dp"
         android:layout_weight="1"
         android:gravity="center_vertical"/>
 
@@ -130,6 +134,7 @@
         android:layout_height="fill_parent"
         android:layout_marginLeft="16dp"
         android:text="@string/map5"
+        android:textSize="18dp"
         android:layout_weight="1"
         android:gravity="center_vertical"/>
 
@@ -148,6 +153,7 @@
         android:layout_height="fill_parent"
         android:layout_marginLeft="16dp"
         android:text="@string/map6"
+        android:textSize="18dp"
         android:layout_weight="1"
         android:gravity="center_vertical"/>
 
@@ -166,6 +172,7 @@
         android:layout_height="fill_parent"
         android:layout_marginLeft="16dp"
         android:text="@string/map7"
+        android:textSize="18dp"
         android:layout_weight="1"
         android:gravity="center_vertical"/>
 
@@ -184,6 +191,7 @@
         android:layout_height="fill_parent"
         android:layout_marginLeft="16dp"
         android:text="@string/map8"
+        android:textSize="18dp"
         android:layout_weight="1"
         android:gravity="center_vertical"/>
 
@@ -202,6 +210,7 @@
         android:layout_height="fill_parent"
         android:layout_marginLeft="16dp"
         android:text="@string/map9"
+        android:textSize="18dp"
         android:layout_weight="1"
         android:gravity="center_vertical"/>
 
@@ -220,6 +229,7 @@
         android:layout_height="fill_parent"
         android:layout_marginLeft="16dp"
         android:text="@string/map10"
+        android:textSize="18dp"
         android:layout_weight="1"
         android:gravity="center_vertical"/>
 
@@ -238,6 +248,7 @@
         android:layout_height="fill_parent"
         android:layout_marginLeft="16dp"
         android:text="@string/map11"
+        android:textSize="18dp"
         android:layout_weight="1"
         android:gravity="center_vertical"/>
 
@@ -253,16 +264,17 @@
     <TextView
         android:id="@+id/mapText12"
         android:layout_width="fill_parent"
-        android:layout_height="60dp"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:text="@string/map12"
+        android:textSize="18dp"
         android:layout_weight="1"
         android:gravity="center_vertical"/>
 
     <Spinner
         android:id="@+id/mapSpin12"
         android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="16dp" />
@@ -272,10 +284,12 @@
     <TextView
         android:id="@+id/mapText13"
         android:layout_width="fill_parent"
-        android:layout_height="120dp"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:text="@string/map13"
+        android:textSize="18dp"
         android:layout_weight="1"
+        android:layout_marginTop="15dp"
         android:gravity="center_vertical"/>
 
     <Spinner
@@ -293,6 +307,7 @@
         android:layout_height="fill_parent"
         android:layout_gravity="center"
         android:onClick="evalMap"
+        android:layout_marginTop="15dp"
         android:text="@string/submit" />
     
 </TableLayout>

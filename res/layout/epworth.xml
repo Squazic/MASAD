@@ -28,9 +28,10 @@
     <TextView
         android:id="@+id/textView1"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:text="@string/epworth1" 
+        android:textSize="18dp"
         android:layout_weight="1"
         android:gravity="center_vertical"/>
     <Spinner
@@ -45,9 +46,10 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:text="@string/epworth2" 
+        android:textSize="18dp"
         android:layout_weight="1"
         android:gravity="center_vertical"/>
     <Spinner
@@ -63,9 +65,10 @@
     <TextView
         android:id="@+id/textView3"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:text="@string/epworth3"
+        android:textSize="18dp"
         android:layout_weight="1"
         android:gravity="center_vertical"/>
 
@@ -81,9 +84,10 @@
     <TextView
         android:id="@+id/textView4"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:text="@string/epworth4"
+        android:textSize="18dp"
         android:layout_weight="1"
         android:gravity="center_vertical"/>
 
@@ -99,9 +103,10 @@
     <TextView
         android:id="@+id/textView5"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:text="@string/epworth5"
+        android:textSize="18dp"
         android:layout_weight="1"
         android:gravity="center_vertical"/>
 
@@ -117,9 +122,10 @@
     <TextView
         android:id="@+id/textView6"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:text="@string/epworth6"
+        android:textSize="18dp"
         android:layout_weight="1"
         android:gravity="center_vertical"/>
 
@@ -135,9 +141,10 @@
     <TextView
         android:id="@+id/textView7"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:text="@string/epworth7"
+        android:textSize="18dp"
         android:layout_weight="1"
         android:gravity="center_vertical"/>
 
@@ -153,9 +160,10 @@
     <TextView
         android:id="@+id/textView8"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:text="@string/epworth8"
+        android:textSize="18dp"
         android:layout_weight="1"
         android:gravity="center_vertical"/>
 
