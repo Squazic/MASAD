@@ -20,11 +20,18 @@ public class FOSQ extends Activity {
 	private ArrayList<Integer> fosq_l = new ArrayList<Integer>();
 	private TextView q;
 	private Button b0, b1, b2, b3, b4;
+	private String dt;
+	
     /** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.fosq);
+	       
+	    Bundle extras = getIntent().getExtras();
+	    if (extras != null) {
+	    	dt = extras.getString("dt");
+	    }
 		
 		q = (TextView)findViewById(R.id.fosqQ); 
 		b0 = (Button)findViewById(R.id.fosq0); 
@@ -140,9 +147,11 @@ public class FOSQ extends Activity {
 			}
 			String date = (String) android.text.format.DateFormat.format("yyyy-MM-dd hh:mm:ss", new java.util.Date());
 			byte[] content = ("FOSQ," + sum(fosq_l) + "," + date + fosq + "\n").getBytes();
-			writeExternalStorage("patient_data.txt", content);
+			String qFile = dt + ".txt";
+			writeExternalStorage(qFile, content);
 			System.out.println(fosq + sum(fosq_l));
 			Intent nextScreen = new Intent(getApplicationContext(), CameraIntro.class);
+			nextScreen.putExtra("dt", dt);
 			startActivity(nextScreen);
 		}
 	}
@@ -167,7 +176,7 @@ public class FOSQ extends Activity {
 	    try {
 	    	if(Environment.MEDIA_MOUNTED.equals(Environment.getExternalStorageState())){
 	    		dir.mkdirs();
-	    		File file = new File(dir, "patient_data.txt");
+	    		File file = new File(dir, filename);
 	    		FileOutputStream out = new FileOutputStream(file, true);
 	    		out.write(content);
 	    	}

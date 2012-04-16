@@ -87,9 +87,12 @@ public class Epworth extends Activity {
 				"Your Epworth Score is: " + epworth_score + "\n" + diagnosis,
 				Toast.LENGTH_LONG).show();*/
 		byte[] content = ("Epworth," + epworth_score + "," + date + "," + ep_str + "\n").getBytes();
-		writeExternalStorage("patient_data.txt", content);
+		String dt = android.text.format.DateFormat.format("yyyy-MM-dd-hh-mm", new java.util.Date()).toString();
+		String qFile = dt + ".txt";
+		writeExternalStorage(qFile, content);
 		
 		Intent nextScreen = new Intent(getApplicationContext(), MAP.class);
+		nextScreen.putExtra("dt", dt);
         startActivity(nextScreen);
 	}
 	
@@ -106,7 +109,7 @@ public class Epworth extends Activity {
 	    try {
 	    	if(Environment.MEDIA_MOUNTED.equals(Environment.getExternalStorageState())){
 	    		dir.mkdirs();
-	    		File file = new File(dir, "patient_data.txt");
+	    		File file = new File(dir, filename);
 	    		FileOutputStream out = new FileOutputStream(file, true);
 	    		out.write(content);
 	    	}

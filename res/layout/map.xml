@@ -188,7 +188,7 @@
     <TextView
         android:id="@+id/mapText8"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="80dp"
         android:layout_marginLeft="16dp"
         android:text="@string/map8"
         android:textSize="18dp"
@@ -264,7 +264,7 @@
     <TextView
         android:id="@+id/mapText12"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:layout_marginLeft="16dp"
         android:text="@string/map12"
         android:textSize="18dp"
@@ -284,12 +284,11 @@
     <TextView
         android:id="@+id/mapText13"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="140dp"
         android:layout_marginLeft="16dp"
         android:text="@string/map13"
         android:textSize="18dp"
         android:layout_weight="1"
-        android:layout_marginTop="15dp"
         android:gravity="center_vertical"/>
 
     <Spinner

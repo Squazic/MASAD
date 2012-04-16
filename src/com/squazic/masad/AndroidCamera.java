@@ -40,6 +40,7 @@ public class AndroidCamera extends Activity implements SurfaceHolder.Callback{
  Button buttonTakePicture;
  
  final int RESULT_SAVEIMAGE = 0;
+ private String dt;
  
    /** Called when the activity is first created. */
    @Override
@@ -50,6 +51,7 @@ public class AndroidCamera extends Activity implements SurfaceHolder.Callback{
        Bundle extras = getIntent().getExtras();
        if (extras != null) {
     	   pics = extras.getInt("pics");
+    	   dt = extras.getString("dt");
        }
        
        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
@@ -128,7 +130,14 @@ public class AndroidCamera extends Activity implements SurfaceHolder.Callback{
 
 	    File externalPath = Environment.getExternalStorageDirectory();
 	    File dir = new File(externalPath.getAbsolutePath() + "/" + getPackageName());
-	    File file = new File(dir, System.currentTimeMillis() + ".jpg");
+	    File file;
+	    if (pics == 2){
+	    	file = new File(dir, dt + "-1.jpg");
+	    }
+	    else {
+	    	file = new File(dir, dt + "-2.jpg");
+	    }
+	    
 	    imageFileOS = new FileOutputStream(file);
 	    
     //imageFileOS = getContentResolver().openOutputStream(uriTarget);
@@ -142,11 +151,13 @@ public class AndroidCamera extends Activity implements SurfaceHolder.Callback{
     if (pics == 2){
     	Intent nextScreen = new Intent(getApplicationContext(), AndroidCamera.class);
     	nextScreen.putExtra("pics", 1);
+		nextScreen.putExtra("dt", dt);
     	startActivity(nextScreen);
     	finish();
     }
     else {
     	Intent nextScreen = new Intent(getApplicationContext(), RecordAudio.class);
+		nextScreen.putExtra("dt", dt);
     	startActivity(nextScreen);
     }
     

@@ -40,10 +40,17 @@ public class RecordAudio extends Activity {
         private Thread recordingThread = null;
         private boolean isRecording = false;
         
+        private String dt;
+        
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.audio);
+	       
+	    Bundle extras = getIntent().getExtras();
+	    if (extras != null) {
+	    	dt = extras.getString("dt");
+	    }
         
         setButtonHandlers();
         enableButtons(false);
@@ -163,6 +170,7 @@ public class RecordAudio extends Activity {
                 copyWaveFile(getTempFilename(),getFilename());
                 deleteTempFile();
             	Intent nextScreen = new Intent(getApplicationContext(), Last.class);
+        		nextScreen.putExtra("dt", dt);
             	startActivity(nextScreen);
         }
 

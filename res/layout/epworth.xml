@@ -64,8 +64,8 @@
     <TableRow>
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
         android:layout_marginLeft="16dp"
         android:text="@string/epworth3"
         android:textSize="18dp"
@@ -76,7 +76,6 @@
         android:id="@+id/spinner3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="5dp"
         android:layout_marginRight="16dp" />
     </TableRow>
         
@@ -103,7 +102,7 @@
     <TextView
         android:id="@+id/textView5"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
         android:layout_marginLeft="16dp"
         android:text="@string/epworth5"
         android:textSize="18dp"

@@ -18,12 +18,18 @@ public class MAP extends Activity {
 	
 	private Spinner spinner1, spinner2, spinner3, spinner4, spinner5, spinner6, 
 					spinner7, spinner8, spinner9, spinner10, spinner11, spinner12, spinner13;
+	private String dt = "";
 	
     /** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.map);
+	       
+	    Bundle extras = getIntent().getExtras();
+	    if (extras != null) {
+	    	dt = extras.getString("dt");
+	    }
 	 
 		addItemsOnSpinner();
 	}
@@ -93,8 +99,10 @@ public class MAP extends Activity {
 						spinner13.getSelectedItemPosition();
 		  
 		byte[] content = ("MAP," + map_score + "," + date + "," + str + "\n").getBytes();
-		writeExternalStorage("patient_data.txt", content);
+		String qFile = dt + ".txt";
+		writeExternalStorage(qFile, content);
 		Intent nextScreen = new Intent(getApplicationContext(), FOSQIntro.class);
+		nextScreen.putExtra("dt", dt);
         startActivity(nextScreen);
 	}
 	
@@ -111,7 +119,7 @@ public class MAP extends Activity {
 	    try {
 	    	if(Environment.MEDIA_MOUNTED.equals(Environment.getExternalStorageState())){
 	    		dir.mkdirs();
-	    		File file = new File(dir, "patient_data.txt");
+	    		File file = new File(dir, filename);
 	    		FileOutputStream out = new FileOutputStream(file, true);
 	    		out.write(content);
 	    	}
