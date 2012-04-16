@@ -40,9 +40,10 @@ public class Last extends Activity {
         File uploadFile3 = new File(filepath, photo2);
 		String uploadServerUri = "https://fling.seas.upenn.edu/~chenst/cgi-bin/sample.php";
         
+		/*
 		doFileUpload(uploadFile.getAbsolutePath(), uploadServerUri);
 		doFileUpload(uploadFile2.getAbsolutePath(), uploadServerUri);
-		doFileUpload(uploadFile3.getAbsolutePath(), uploadServerUri);
+		doFileUpload(uploadFile3.getAbsolutePath(), uploadServerUri);*/
         
 	}
 	
